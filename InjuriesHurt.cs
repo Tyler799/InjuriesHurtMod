@@ -14,17 +14,6 @@ namespace com.Tyler799.Battletech.InjuriesHurtMod
         }
     }
 
-    // Modifies guts value
-    [HarmonyPatch(typeof(Pilot))]
-    [HarmonyPatch("Guts", PropertyMethod.Getter)]
-    public class GutsHealthModifier
-    {
-        public static void Postfix(Pilot __instance, ref int __result)
-        {
-            __result = (int)(__result * ((__instance.Health - (float)__instance.Injuries) / (float)__instance.Health));
-        }
-    }
-
     // Modifies tactics value
     [HarmonyPatch(typeof(Pilot))]
     [HarmonyPatch("Tactics", PropertyMethod.Getter)]
@@ -32,7 +21,7 @@ namespace com.Tyler799.Battletech.InjuriesHurtMod
     {
         public static void Postfix(Pilot __instance, ref int __result)
         {
-            __result = (int)(__result * ((__instance.Health - (float)__instance.Injuries) / (float)__instance.Health));
+            __result = (int)(__result * (((0.05 * __instance.Guts - 1) * __instance.Injuries) / (float)__instance.Health + 1));
         }
     }
 
@@ -43,7 +32,7 @@ namespace com.Tyler799.Battletech.InjuriesHurtMod
     {
         public static void Postfix(Pilot __instance, ref int __result)
         {
-            __result = (int)(__result * ((__instance.Health - (float)__instance.Injuries) / (float)__instance.Health));
+            __result = (int)(__result * (((0.05 * __instance.Guts - 1) * __instance.Injuries) / (float)__instance.Health + 1));
         }
     }
 
@@ -54,7 +43,7 @@ namespace com.Tyler799.Battletech.InjuriesHurtMod
     {
         public static void Postfix(Pilot __instance, ref int __result)
         {
-            __result = (int)(__result * ((__instance.Health - (float)__instance.Injuries) / (float)__instance.Health));
+            __result = (int)(__result * (((0.05 * __instance.Guts - 1) * __instance.Injuries) / (float)__instance.Health + 1));
         }
     }
 }

@@ -2,7 +2,7 @@
     "Name": "InjuriesHurt",
     "Enabled": true,
 
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Description": "Makes injuries reduce a pilot's stats, until they're healed up.",
     "Author": "Night Thastus",
     "Website": "https://github.com/Tyler799/InjuriesHurtMod",
