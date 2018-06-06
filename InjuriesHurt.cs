@@ -15,7 +15,6 @@ namespace com.Tyler799.Battletech.InjuriesHurtMod
     }
 
     // Modifies guts value
-
     [HarmonyPatch(typeof(Pilot))]
     [HarmonyPatch("Guts", PropertyMethod.Getter)]
     public class GutsHealthModifier
