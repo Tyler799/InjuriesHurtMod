@@ -1,6 +1,0 @@
-D:\Projects\InjuriesHurtMod\InjuriesHurtMod\bin\Debug\InjuriesHurtMod.dll
-D:\Projects\InjuriesHurtMod\InjuriesHurtMod\bin\Debug\InjuriesHurtMod.pdb
-D:\Projects\InjuriesHurtMod\InjuriesHurtMod\obj\Debug\InjuriesHurtMod.csprojAssemblyReference.cache
-D:\Projects\InjuriesHurtMod\InjuriesHurtMod\obj\Debug\InjuriesHurtMod.csproj.CoreCompileInputs.cache
-D:\Projects\InjuriesHurtMod\InjuriesHurtMod\obj\Debug\InjuriesHurtMod.dll
-D:\Projects\InjuriesHurtMod\InjuriesHurtMod\obj\Debug\InjuriesHurtMod.pdb
