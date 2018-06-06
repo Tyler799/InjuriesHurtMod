@@ -1,0 +1,5 @@
+D:\Projects\InjuriesHurtMod\InjuriesHurtMod\obj\Release\InjuriesHurtMod.csproj.CoreCompileInputs.cache
+D:\Projects\InjuriesHurtMod\Build\InjuriesHurtMod\mod.json
+D:\Projects\InjuriesHurtMod\Build\InjuriesHurtMod\InjuriesHurt.dll
+D:\Projects\InjuriesHurtMod\InjuriesHurtMod\obj\Release\InjuriesHurt.dll
+D:\Projects\InjuriesHurtMod\InjuriesHurtMod\obj\Release\InjuriesHurtMod.csprojAssemblyReference.cache
