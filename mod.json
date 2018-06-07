@@ -7,9 +7,9 @@
     "Author": "Night Thastus",
     "Website": "https://github.com/Tyler799/InjuriesHurtMod",
 
-    "DLL": "InjuriesHurt.dll"
+    "DLL": "InjuriesHurt.dll",
 	
 	"Settings": {
-        "gutsEffectPercentage": 0.5,
+        "gutsEffectPercentage": 0.5
     }
 }
